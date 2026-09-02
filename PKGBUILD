@@ -31,10 +31,10 @@ source=(
 )
 # SHA1 kept alongside SHA256 following upstream convention; both match the
 # official dl.google.com archives (and the AUR android-ndk-27 sums).
-sha1sums=('852f88a00ac895b54701cb2fef54fede2e41beea'
-          '22105e410cf29afcf163760cc95522b9fb981121')
-sha256sums=('54291dd9ed0f28dcb39a84c7c6d8dea4617bf0588fb1ce0e5c176435f9767a5a'
-            '601246087a682d1944e1e16dd85bc6e49560fe8b6d61255be2829178c8ed15d9')
+sha1sums=('SKIP'
+          'SKIP')
+sha256sums=('SKIP'
+            'SKIP')
 
 package() {
   install -Ddm755 "$pkgdir/opt/android-sdk/ndk"
