@@ -1,0 +1,10 @@
+post_install() {
+  echo ">>> android-ndk-27 installed at /opt/android-sdk/ndk/27.3.13750724"
+  echo ">>> PATH updated via /etc/profile.d/android-ndk-27.sh (relogin or source it)."
+  echo ">>> By installing the android NDK you accept the Android SDK Terms of Service:"
+  echo ">>>   https://developer.android.com/studio/terms"
+}
+
+post_upgrade() {
+  post_install
+}

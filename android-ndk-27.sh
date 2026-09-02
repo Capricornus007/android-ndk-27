@@ -1,0 +1,1 @@
+export PATH="${PATH}:/opt/android-sdk/ndk/27.3.13750724"
