@@ -13,9 +13,6 @@ license=('GPL' 'LGPL' 'custom')
 options=('!strip' 'staticlibs')
 backup=("etc/profile.d/android-ndk-27.sh")
 install="$pkgname.install"
-conflicts=('android-ndk')
-provides=("android-ndk=$pkgver")
-replaces=('android-ndk64')
 depends=('bash' 'glibc' 'gcc-libs' 'zlib')
 optdepends=(
   'ncurses5-compat-libs: for curses module in bundled Python'
