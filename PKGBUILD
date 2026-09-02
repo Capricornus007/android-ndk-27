@@ -38,7 +38,7 @@ sha256sums=('54291dd9ed0f28dcb39a84c7c6d8dea4617bf0588fb1ce0e5c176435f9767a5a'
 
 package() {
   install -Ddm755 "$pkgdir/opt/android-sdk/ndk"
-  mv "android-ndk-27.3.13750724" "$pkgdir/opt/android-sdk/ndk/$pkgver"
+  mv "android-ndk-r27d" "$pkgdir/opt/android-sdk/ndk/$pkgver"
 
   install -Dm644 android-ndk-27.sh -t "$pkgdir/etc/profile.d/"
 
